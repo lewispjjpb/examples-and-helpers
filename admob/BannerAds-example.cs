@@ -5,7 +5,6 @@ using GoogleMobileAds.Api;
 
 public class BannerAds : MonoBehaviour
 {
-    // Start is called before the first frame update
     #if UNITY_ANDROID
     private string _adUnitId = "your-android-id-here";
     #elif UNITY_IPHONE
